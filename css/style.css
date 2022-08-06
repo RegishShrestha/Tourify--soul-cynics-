@@ -665,3 +665,25 @@ input {
 #footer #social-icons img:hover {
   transform: scale(1.2);
 }
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
