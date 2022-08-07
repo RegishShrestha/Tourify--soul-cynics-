@@ -1,9 +1,9 @@
-# Tourify-!
+# Tourify-
 
 You can also visit the site:
 https://dancing-mousse-a1511e.netlify.app/
 
-[Screenshot from 2022-08-07 09-28-51](https://user-images.githubusercontent.com/87872185/183274258-dc0a5534-0647-4452-8e0d-824ce6c0953b.png)
+![Screenshot from 2022-08-07 09-28-51](https://user-images.githubusercontent.com/87872185/183274258-dc0a5534-0647-4452-8e0d-824ce6c0953b.png)
 ![Screenshot from 2022-08-07 09-29-01](https://user-images.githubusercontent.com/87872185/183274259-36bffd1e-1f03-45e0-a3d3-6153dd52062d.png)
 ![Screenshot from 2022-08-07 09-29-03](https://user-images.githubusercontent.com/87872185/183274267-99cf5d26-746c-4895-be02-3dd0390e9cf6.png)
 ![Screenshot from 2022-08-07 09-29-07](https://user-images.githubusercontent.com/87872185/183274269-cbdc51a0-be18-46e9-9cdd-253ba5311a90.png)
