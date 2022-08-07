@@ -21,7 +21,7 @@
     <section id="landing">
       <h1><strong>Tourify</strong></h1>
       <p>
-        <strong><em>Our Culture Your Selection. Start Your Travel Planning Today! Download App. Find exciting locations and Cuisine. Highlights: Flexible Options Filter Available, Providing Low Fare Tips, Experience our culture.</em></strong>
+        <strong>Our Culture Your Selection. Start Your Travel Planning Today! Download App. Find exciting locations and Cuisine. Highlights: Flexible Options Filter Available, Providing Low Fare Tips, Experience our culture.</strong>
       </p>
       <button type="button" name="button" onclick="enterSite();">Explore</button>
     </section>
@@ -38,9 +38,10 @@
           <section id="form-section">
               <h2>Connect Your Account!</h2>
               <form action="index.html" method="post" autocomplete="off">
-                  <input type="email" name="email" placeholder="Email" required>
-                  <input type="password" name="pass" placeholder="Password" required>
-                  <input type="submit" name="submit" value="Log in">
+                  <input type="email" name="email" placeholder="Email" >
+                  <input type="password" name="pass" placeholder="Password" >
+                  <!-- <a href="user_login.html"><input type="submit" name="submit" value="Log in"></a> -->
+                  <a class="btn" href="user_login.html">Login</a>
               </form>
               <p>Register an account? <a href="register.html">Register</a>.</p>
           </section>
@@ -65,6 +66,7 @@
         </article>
       </section>
 
+      
       <section id="info-section">
         <article>
           <figure></figure>
@@ -110,8 +112,8 @@
             <li><a href="#">Ghandruk</a></li>
 
           </ul>
-          <h4>Find Location By Country</h4>
-          <ul>
+          <h4>Find Location By Map</h4>
+          <!-- <ul>
             <li><a href="#">Province 1</a></li>
             <li><a href="#">Province 2</a></li>
             <li><a href="#">Province 3</a></li>
@@ -119,7 +121,16 @@
             <li><a href="#">Province 5</a></li>
             <li><a href="#">Province 6</a></li>
             <li><a href="#">Province 7</a></li>
-          </ul>
+          </ul> -->
+          <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3131082.9799841475!2d83.93452731579293!3d28.4703754000552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1659810554124!5m2!1sen!2snp"
+      width="800"
+      height="350"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
       </section>
 
       <section id="testimonials">

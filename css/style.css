@@ -687,3 +687,19 @@ input {
 #myUL li a:hover:not(.header) {
   background-color: #eee;
 }
+
+.btn {
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: black;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
