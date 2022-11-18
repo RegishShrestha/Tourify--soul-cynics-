@@ -45,6 +45,15 @@ input {
   font-size: 1.125rem;
 }
 
+textarea {
+  height: 80px;
+  border: 1px solid black;
+}
+
+input[type="submit"] {
+  color: #e4e4e4;
+  background-color: black;
+}
 @keyframes intro-content {
   0% {
     opacity: 0;
@@ -665,4 +674,68 @@ input {
 
 #footer #social-icons img:hover {
   transform: scale(1.2);
+}
+
+#contact {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  width: 50%;
+  color: black;
+  /* background: rgba(19, 28, 39, 0.8); */
+  background-color: white;
+  border: black;
+  border-radius: 20px;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-head {
+  padding: 4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.name-form,
+.email-form {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.form-wrapper label {
+  margin: 0px 8px;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.form-wrapper input {
+  border: black;
+  padding: 5px 10px;
+  width: 90%;
+}
+
+.form-wrapper button:hover {
+  background-color: gray;
+  color: black;
 }
